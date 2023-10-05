@@ -35,9 +35,9 @@ return [
             'secret' => 'dosFI1yQ8bvHEVFw',
             'initiator' => 'test1pi13',
             'password' => 'djdj',
-            'b2c_timeout' => 'https://b2d7e6a4.ngrok.io/api/validate?key=ertyuiowwws',
-            'b2c_result' => 'https://b2d7e6a4.ngrok.io/api/validate?key=ertyuiowwws',
-            'id_validation_callback' => 'https://b2d7e6a4.ngrok.io/api/validate?key=ertyuiowwws',
+            'b2c_timeout' => 'https://b2d7e6a4.ngrok.io/api/b2c-timeout?key=ertyuiowwws',
+            'b2c_result' => 'https://b2d7e6a4.ngrok.io/api/b2c-result?key=ertyuiowwws',
+            'id_validation_callback' => 'https://b2d7e6a4.ngrok.io/api/validate-callback?key=ertyuiowwws',
             'lnmo' => [
                 'paybill' => 600990,
                 'shortcode' => 174379,

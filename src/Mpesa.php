@@ -336,9 +336,11 @@ class Mpesa
             'QueueTimeOutURL' => $this->bbtimeout,
             'ResultURL' => $this->bbresult,
         );
+
         $data = json_encode($request_data);
         $url = $this->base_url . '/mpesa/b2b/v1/paymentrequest';
         $response = $this->submit_request($url, $data);
+
         return $response;
     }
 

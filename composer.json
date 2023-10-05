@@ -1,18 +1,21 @@
 {
-    "name": "brianokinyi/laravelmpesa",
+    "name": "manoti/laravelmpesa",
     "description": "A simple mpesa package for laravel framework",
-    "homepage": "https://github/gathuku/laravel_mpesa",
+    "homepage": "https://github/brianokinyi/laravelmpesa",
     "keywords": [
         "mpesa",
         "laravel",
-        "gathuku"
+        "laravel-mpesa",
+        "daraja",
+        "manoti",
+        "brianokinyi"
     ],
     "type": "laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "moses gathuku",
-            "email": "mosesgathuku95@gmail.com"
+            "name": "Brian Okinyi",
+            "email": "brianokinyi.bo@gmail.com"
         }
     ],
     "minimum-stability": "dev",
